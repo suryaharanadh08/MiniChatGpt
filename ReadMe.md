@@ -23,13 +23,10 @@ To run this project, you need:
 1. Set up your OpenAI API key:
     - Sign up on the [OpenAI website](https://beta.openai.com/signup/).
     - Obtain your API key from the [API keys page](https://beta.openai.com/account/api-keys).
-    - Create a `.env` file in the project directory and add your API key:
-        ```plaintext
-        OPENAI_API_KEY=your_api_key_here
-        ```
+   
 2. Run the application:
     ```sh
-    python app.py
+    python MiniChatgpt.py
     ```
 3. Open your web browser and navigate to `http://localhost:5000` to access the interactive webpage.
 
