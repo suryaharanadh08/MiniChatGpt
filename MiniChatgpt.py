@@ -1,13 +1,3 @@
-""" I'm B. Suryaharanadh, a BTech 3rd year student specializing in Artificial Intelligence and Data Science.
-    I developed a simple, interactive webpage akin to ChatGPT that could be hosted locally. By leveraging the capabilities of ChatGPT (version 3.5).
-    The resulting webpage provides responses based on user queries, similar to ChatGPT's functionality.
-"""
-#pip install openai flask
-#python -m pip install --upgrade pip
-#pip install --upgrade openai
-
-
-
 from flask import Flask, request, jsonify
 import openai
 import os
